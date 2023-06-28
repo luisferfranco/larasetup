@@ -35,6 +35,7 @@ This is my boilerplate for Laravel Project, it includes among other things:
 
 ## Usage
 
+```
 git clone git@github.com:luisferfranco/larasetup.git myproject
 cd myproject
 composer install
@@ -43,3 +44,4 @@ cp .env.example .env
 php artisan key:generate
 php artisan migrate --seed
 npm run dev
+```
